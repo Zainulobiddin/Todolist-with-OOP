@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.divUser {
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid rgb(223, 218, 218);
+    line-height: 25px;
+    border-radius: 13px;
+}
+
+input, select, .main>button {
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(223, 218, 218);
+    border-radius: 8px;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.editModal, .infoModal {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border: none;
+    border-radius: 13px;
+}
+.infoModal {
+    text-align: center;
+    line-height: 30px;
+}
+.editForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.editForm>button {
+    width: 50%;
+    margin: auto;
+    padding: 5px 9px;
+    border: 1px solid rgb(223, 221, 221);
+    background-color: rgb(35, 253, 71);
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+button {
+    cursor: pointer;
+}

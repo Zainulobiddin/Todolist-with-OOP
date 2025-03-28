@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>28.03.25</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- add user -->
+    <div class="main">
+      <label for=""><b> ➕ Add: </b></label>
+      <input type="text" placeholder="add name" class="addName" />
+      <input type="text" placeholder="add profession" class="addProfession" />
+      <input type="text" placeholder="add hobby" class="addHobby" />
+      <select class="addStatus">
+        <option value="true">Active</option>
+        <option value="false">InActive</option>
+      </select>
+      <button class="add">Save User</button>
+    </div>
+
+    <!-- edit modal -->
+    <dialog class="editModal">
+      <form class="editForm">
+        <input type="text" placeholder="edit name" name="editName" />
+        <input
+          type="text"
+          placeholder="edit profession"
+          name="editProfession"
+        />
+        <input type="text" placeholder="edit hobby" name="editHobby" />
+        <select name="editStatus">
+          <option value="true">Active</option>
+          <option value="false">InActive</option>
+        </select>
+        <button type="submit">Edit</button>
+        <button type="button" class="cancel">Cancel</button>
+      </form>
+    </dialog>
+
+    <div class="select_search">
+      <label for=""><b>Select: </b></label>
+
+      <select class="selectStatus">
+        <option value="All">All</option>
+        <option value="true">Active</option>
+        <option value="false">InActive</option>
+      </select>
+      <input type="text" class="searchInput" placeholder="search" />
+    </div>
+
+    <!-- select and search -->
+    <div>
+      <label for=""><b>Sort: </b></label>
+      <select class="selectStatus">
+        <option value="All">All</option>
+        <option value="true">Active</option>
+        <option value="false">InActive</option>
+      </select>
+    </div>
+
+    <!-- info modal -->
+     <dialog class="infoModal">
+        <h2 class="name_h2"></h2>
+        <h4 class="profession_h4"></h4>
+        <p class="hobby_p"></p>
+        <p class="status_p"></p>
+        <button class="info">Cancel</button>
+     </dialog>
+
+    <div class="box"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>

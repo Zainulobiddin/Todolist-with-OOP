@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Samandar",
+      "status": true,
+      "profession": "Designer",
+      "hobby": "My hobby is football"
+    },
+    {
+      "name": "Faridun",
+      "profession": "Electric",
+      "hobby": "My hobby is tennis",
+      "status": false,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Saidolim",
+      "status": false,
+      "profession": "Teacher",
+      "hobby": "My hobby is swim"
+    },
+    {
+      "id": "4",
+      "name": "Sadriddin",
+      "status": false,
+      "profession": "SMM",
+      "hobby": "My hobby is Designer"
+    },
+    {
+      "id": "5",
+      "name": "Komron",
+      "status": true,
+      "profession": "Teacher",
+      "hobby": "My hobby is speaking"
+    },
+    {
+      "name": "Zainulobiddin",
+      "profession": "programmer",
+      "hobby": "My hobby id to travel",
+      "status": false,
+      "id": "1743125643021"
+    }
+  ]
+}
